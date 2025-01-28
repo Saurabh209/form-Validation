@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+p,
+h3 {
+  font-family: "Inter", serif;
+}
+
+.headings p {
+  font-size: 13px;
+  color: rgb(93, 93, 93);
+}
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.formContainer {
+  box-shadow: 0px 0px 17px rgb(93, 166, 249);
+  padding: 20px;
+  display: flex;
+  border-radius: 8px;
+  height: 240px;
+  min-width: 600px;
+  width: 800px;
+}
+
+.imgHolder {
+  width: 45%;
+  height: 100%;
+}
+.callBackImage {
+  height: 100%;
+  width: auto;
+}
+.loginSection {
+  width: 55%;
+  height: 100%;
+}
+
+.inputHolder {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.noName {
+  height: 100%;
+  width: 60px;
+  /* border: 1px solid black; */
+}
+
+.inputField {
+  display: flex;
+  align-items: center;
+  height: 35px;
+  width: 80%;
+  border: 2px solid rgb(111, 111, 111);
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+.countryCodeSelector {
+  padding: 5px;
+  margin-right: 10px;
+}
+.textHolder {
+  margin-left: 5px;
+  flex: 1;
+  padding: 5px;
+  text-decoration: none;
+  border: none;
+  width: 90%;
+}
+.Button {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  height: 35px;
+  width: 80%;
+  color: white;
+  background-color: rgb(38, 85, 240);
+  justify-content: center;
+  border-radius: 3px;
+}
+.buttonLogo {
+  margin-right: 10px;
+}
+.buttonText {
+  font-family: "Inter", serif;
+}
+.phLogo {
+  margin-right: 10px;
+  height: 17px;
+  width: auto;
+}
+h5 {
+  font-family: "Inter", serif;
+}
+.headings h3 {
+  font-family: "Inter", serif;
+}
