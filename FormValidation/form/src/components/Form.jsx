@@ -1,11 +1,11 @@
 import { useState } from "react";
 
-import "./App.css";
-import CallBackImage from "./assets/CallBack.svg";
-import phoneLogo from "./assets/phoneLogo.png";
-import indiaLogo from "./assets/india.png";
+import "./Form.css";
+import CallBackImage from "../assets/CallBack.svg";
+import phoneLogo from "../assets/phoneLogo.png";
+import indiaLogo from "../assets/india.png";
 
-function App() {
+function Form() {
   return (
     <div className="mainContainer">
       <div className="formContainer">
@@ -32,7 +32,7 @@ function App() {
                   marginLeft: "10px",
                   marginRight: "10px",
                 }}
-              />{" "}
+              />
               <p style={{ fontSize: "12px" }}>+91</p>
               <input
                 className="textHolder"
@@ -55,4 +55,4 @@ function App() {
   );
 }
 
-export default App;
+export default Form;
